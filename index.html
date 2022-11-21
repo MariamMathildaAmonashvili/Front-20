@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="
+    X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Front-20</title>
+</head>
+<body>
+    <section class="user-section" id="section-user">
+     
+        <table class="table">
+            <tr class="table-h">
+                <th class="table-header">ID</th>
+                <th class="table-header">Name</th>
+                <th class="table-header">Surname</th>
+                <th class="table-header">Email</th>
+                <th class="table-header">Personal ID</th>
+                <th class="table-header">Mobile Number</th>
+                <th class="table-header">Zip</th>
+                <th class="table-header">Gender</th>
+                <th class="table-header">Actions</th>
+             </tr>
+             <tbody class="table-content"></tbody>
+        </table>
+      
+   </section>     
+
+     
+          <div class="create-user-btn">
+             <button class="create-user">Add User</button>
+          </div>
+
+          <div  id="modal" class="modal-form">
+            <div class="form-top">
+                <button class="form-button">Close</button>
+            </div>
+             <form class="form" id="reg" action="#" method="#">
+               <div class="input-field">
+                 <label for="first_name">Name</label>
+                 <input type="text" id="first_name" placeholder="Name" required>
+               </div>
+               <div class="input-field">
+                <label for="last_name">Lastname</label>
+                <input type="text" id="last_name" placeholder="User Surname" required>
+              </div>
+              <div class="input-field">
+                <label for="Phone">Phone Number</label>
+                <input type="number" id="phone-numb" placeholder="Phone Number" required>
+              </div>
+              <div class="input-field">
+                <label for="id_number">Personal ID</label>
+                <input type="number" id="id_number" placeholder="Personal ID" required>
+              </div>
+              <div class="input-field">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Email" required>
+              </div>
+              <div class="input-field">
+                <label for="zip-code">Zip Code</label>
+                <input type="number" id="zip-code" placeholder="Zip Code" required>
+              </div>
+              <div class="input-field">
+                <label for="gender">Choose Gender</label>
+                <input type="text" id="gender" placeholder="Choose Gender" required>
+              </div>
+              <div class="div-submitbutton">
+                 <button type="submit" class="submit">Submit</button>
+              </div>
+             </form>
+          </div>
+      
+
+
+    <script src="assets/main.js"></script>
+</body>
+</html>

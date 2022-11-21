@@ -1,0 +1,148 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    text-decoration:  none;
+}
+
+
+.user-section{
+    position:absolute;
+    transform: translate(-50%, -50%);
+    top:50%;
+    left:50%;
+     border-top:solid 2px white; 
+     border-right:solid 2px white;
+
+   
+}
+
+label{
+    margin-right:2rem;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+    font-weight:400;
+}
+input{
+    padding:10px 10px;
+    border-color:#7AA3C7;
+    border-top: 1px solid #7AA3C7;
+    font-family: Arial, Helvetica, sans-serif
+
+    
+}
+
+.hide{
+    display:none;
+}
+
+ .table-header, .table-data{
+     padding:10px;
+     border-left:solid 2px  white ;
+     border-bottom:solid 2px  white ;
+     border-top:  white;
+     
+    
+}
+.flex{
+    display:flex;
+    justify-content:center;
+}
+.table-header{
+    background-color:#7AA3C7;
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 500;
+
+}
+.table-data{
+    background-color:#7AA3C7;
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:700;
+}
+
+.user-btn{
+    margin-left:1rem;
+    margin-right:1rem;
+    width:4rem;
+    height:2rem;
+    cursor: pointer;
+    background-color:#7AA3C7;
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.create-user-btn{
+   display:flex;
+   justify-content: center;
+   margin:20px 0;
+  
+}
+.create-user{
+    background-color: #7AA3C7;
+    width:150px; 
+    height:50px;
+    color:black;
+    cursor: pointer;
+    font-weight: 700;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+   
+}
+
+.appear{
+    display:block;
+    max-width:1440px;
+    width:60%;
+    margin:auto;
+}
+.modal-form{
+    max-width:1440px;
+    width:60%;
+    margin:auto;
+    display:none;
+}
+
+.form-top{
+    background-color:#7AA3C7;
+    padding:10px 20px; 
+}
+.form-button{
+    padding:10px;
+    cursor: pointer;
+    background-color:#7AA3C7;
+    font-weight:700;
+    color:black;
+    
+}
+.input-field{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:15px;
+}
+.form{
+    background-color:#7AA3C7 (138, 182, 138, 0.6);
+    border:9px solid #7AA3C7;
+    margin-bottom:20px;
+
+}
+
+
+
+.div-submitbutton{
+    display:flex;
+    justify-content: center;
+    margin:20px 0;
+}
+.submit{
+    background-color: #7AA3C7;
+    padding:10px 20px;
+    cursor:pointer;
+    color:black;
+    border-bottom: 2px solid #7AA3C7;
+    font-weight: 700;
+}
